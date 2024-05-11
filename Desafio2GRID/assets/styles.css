@@ -1,0 +1,119 @@
+.header {
+  grid-area: header;
+  background-color: #bc8f8f;
+  height: 80px;
+}
+.titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+i {
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Bodoni Moda", regular;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.nav {
+  grid-area: nav;
+  background-color: #ffe4e1;
+  padding: 1rem;
+  min-height: 90vh;
+}
+
+.main {
+  grid-area: main;
+  background-color: white;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #bc8f8f;
+  text-align: center;
+  height: 60px;
+  height: 60px;
+  font-family: "Bodoni Moda", regular;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    " header header header"
+    "nav main main"
+    "footer footer footer";
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  gap: 0.5rem;
+}
+nav ul li {
+  list-style: none;
+}
+
+.container-card {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #bc8f8f;
+  color: black;
+  width: 70%;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.card img {
+  display: flex;
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+h4 {
+  margin-left: 35%;
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+button {
+  margin-top: 5px;
+  background-color: #800000;
+  border-radius: 10px;
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+h2 {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
